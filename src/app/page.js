@@ -13,8 +13,8 @@ export default function Home() {
           Descubra artigos interessantes sobre tecnologias relacionadas a Orientação a Objetos.
           </p>
           <div className="flex space-x-4">
-            <Input placeholder=" Pesquise Publicações..." className="max-w-sm" />
-            <Button>
+            <Input placeholder="Pesquise Publicações..." className="max-w-sm" />
+            <Button className="hover:bg-green-900 w-40"> 
               <Search className="mr-2 h-4 w-4" /> Pesquisar
             </Button>
           </div>
