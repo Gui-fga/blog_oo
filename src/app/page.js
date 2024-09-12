@@ -6,7 +6,7 @@ import {Search} from "lucide-react"
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 pt-20">
         <section className="mb-12">
           <h1 className="text-4xl font-bold mb-4">Bem vindo ao Blog sobre Orientação a Objetos</h1>
           <p className="text-xl text-muted-foreground mb-6">
