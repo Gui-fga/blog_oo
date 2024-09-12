@@ -2,7 +2,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Button } from "@/components/ui/button"
 import { BookOpen, ChevronRight, Search } from "lucide-react"
 
-export default function Nav (){
+export default function Cards (){
     return(
         <div>
             <Card>
