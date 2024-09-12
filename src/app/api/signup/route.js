@@ -1,7 +1,7 @@
 import { supabase } from "@/utils/supabase";
 import { NextResponse } from 'next/server';
-
-export async function POST(req) {
+<div></div>
+export async function POST(req) { 
     const { name, email, password } = await req.json();
 
     const { data, error } = await this.supabase.getSignup(email, password, {
