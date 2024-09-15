@@ -1,5 +1,5 @@
 import { supabase } from "@/utils/supabase";
-import { NextRequest, NextResponse } from "next/server";
+import {  NextResponse } from "next/server";
 import { v4 as uuidv4, validate as uuidValidate } from "uuid";
 
 export async function POST(req) {
