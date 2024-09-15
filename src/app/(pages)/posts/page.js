@@ -29,7 +29,7 @@ export default function Login () {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen"> 
-        <h1 className='text-2xl mb-10'>Crie sua postegem</h1>       
+        <h1 className='text-2xl mb-10'>Crie sua postagem</h1>       
         <form className="flex flex-col space-y-2" onSubmit={handleCreatePost}>
           <input className="p-2 w-96 text-black"type="text" placeholder="Título"/>
           <textarea className="p-2 w-96 h-96 text-black" placeholder="Postagem"/>
