@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useAuth } from "@/utils/useAuth";
+import 'primeicons/primeicons.css';
+
 
 export default function Nav() {
   const { user } = useAuth();
@@ -31,6 +33,10 @@ export default function Nav() {
             <p>Olá, {user?.user_metadata.displayName}</p>
           </>
         )}
+        <button type="button">
+          <i className="pi pi-sign-out"></i>
+          <span>sair</span>
+        </button>
       </div>
     </nav>
   );
