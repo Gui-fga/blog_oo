@@ -4,11 +4,12 @@ import { useParams, useRouter } from "next/navigation";
 import { useAuth } from "@/utils/useAuth";
 
 export default function EditPost() {
+  const { id } = useParams();
+  const { user } = useAuth();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
-  const { id } = useParams();
   const router = useRouter();
-  const { user } = useAuth();
+
 
   const getPost = async () => {
     const response = await fetch(`/api/posts/get-post/${id}`);
